@@ -6,6 +6,9 @@ date: "2021-02-22T23:46:37.121Z"
 GitFork là một công cụ git siêu xịn
 
 
+![GitFork](./gitForkUI.PNG)
+
+
 Mình là người sử dụng nhiều git ở đại học và lúc ở công ty nhưng không bao giờ nhớ được lệnh command line. Vì vậy nên mình đã sử dụng phần mềm git GUI để dễ hình dung và dùng git một cách thành thạo (theo hướng UI 😉 ). Trước git fork mình đã sử dụng git kraken hơn 4 năm, nhưng thời gian gần đây git kraken không còn cho phép sử dụng repository private miễn phí nữa nên mình đã chuyển sang sử dụng git Fork.
 
 
