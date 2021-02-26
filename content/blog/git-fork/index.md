@@ -12,7 +12,7 @@ GitFork là một công cụ git siêu xịn
 
 Mình là người sử dụng nhiều git ở đại học và lúc ở công ty nhưng không bao giờ nhớ được lệnh command line. Vì vậy nên mình đã sử dụng phần mềm git GUI để dễ hình dung và dùng git một cách thành thạo (theo hướng UI 😉 ). Trước git fork mình đã sử dụng git kraken hơn 4 năm, nhưng thời gian gần đây git kraken không còn cho phép sử dụng repository private miễn phí nữa nên mình đã chuyển sang sử dụng git Fork.
 
-![CheatSheet](./gitSheet.PNG)
+![CheatSheet](https://res.cloudinary.com/practicaldev/image/fetch/s--oSaYKjJI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://pbs.twimg.com/media/EfwWEiHUcAEdzGB%3Fformat%3Djpg%26name%3Dlarge)
 
 > Một vài lệnh git căn bản
 
@@ -33,7 +33,7 @@ Các trường hợp cơ bản của git mà làm đơn giản hóa Fork :
 
     Nếu có cả 2 mũi tên có nghĩa là có commit chưa push, và còn chưa cập nhật commit mới. Trong trường hợp này ta phải pull về trước khi có thể push. Nếu có conflic thì phải xử lý, git fork giúp xử lý conflic rất dễ dàng mà không cần mở editor.
 
-    ![Complex commit](./behindAndNeedPush.PNG)
+    ![Complex commit](./ComplexCommit.jpg)
     > Có 1 commit ở local chưa lên origin và 1 commit chưa được pull về
 
      
