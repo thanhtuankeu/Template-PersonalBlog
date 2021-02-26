@@ -53,6 +53,16 @@ Các trường hợp cơ bản của git mà làm đơn giản hóa Fork :
    Khi làm cùng team thì git conflic là điều khó tránh khỏi, trường hợp hay gặp nhất là 1 hoặc nhiều người cùng làm trên 1 file sửa trên 1 đoạn code.
    Khi điều này xảy ra git sẽ để người dùng quyết định nên giữ đoạn nào.
 
+    ![Git Solve](./gitSolve.PNG)
+    > lúc conflic thì phải giải quyết bằng editor. 
+
+    
+
+    ![Fork Solve GUI](./forkSolve.PNG)
+    > Fork giúp ta nhìn rõ hơn file nào đang conflic.  
+    
+    ![Git Solve GUI](./gitSolveGUI.PNG)
+    > Sửa conflic ngay trên APP.
 
 - checkout commit, reset branch
 
