@@ -28,10 +28,10 @@ Các trường hợp cơ bản của git mà làm đơn giản hóa Fork :
 
     Mũi tên lên 2 nghĩa là ta có 2 commit chưa push lên origin (online).
     
-    ![Have Commit](./haveCommit.PNG)
+    ![Have Commit](https://res.cloudinary.com/dvppqbp03/image/upload/v1614335102/Blog%20Folder/Blog%20Fork/haveCommit_oclv7j.png)
     > Có 1 commit ở local chưa lên origin
 
-    Nếu có cả 2 mũi tên có nghĩa là có commit chưa push, và còn chưa cập nhật commit mới. Trong trường hợp này ta phải pull về trước khi có thể push. Nếu có conflic thì phải xử lý, git fork giúp xử lý conflic rất dễ dàng mà không cần mở editor.
+    Nếu có cả 2 mũi tên có nghĩa là có commit chưa push, và còn chưa cập nhật commit mới. Trong trường hợp này ta phải pull về trước khi có thể push. Nếu có conflict thì phải xử lý, git fork giúp xử lý conflict rất dễ dàng mà không cần mở editor.
 
     ![Complex commit](./ComplexCommit.jpg)
     > Có 1 commit ở local chưa lên origin và 1 commit chưa được pull về
@@ -52,20 +52,20 @@ Các trường hợp cơ bản của git mà làm đơn giản hóa Fork :
     ![Message Git](./commitMessage.PNG)
     > tạo commit chuẩn bị push lên nhánh
 
-- Solve git conflic
-   Khi làm cùng team thì git conflic là điều khó tránh khỏi, trường hợp hay gặp nhất là 1 hoặc nhiều người cùng làm trên 1 file sửa trên 1 đoạn code.
+- Solve git conflict
+   Khi làm cùng team thì git conflict là điều khó tránh khỏi, trường hợp hay gặp nhất là 1 hoặc nhiều người cùng làm trên 1 file sửa trên 1 đoạn code.
    Khi điều này xảy ra git sẽ để người dùng quyết định nên giữ đoạn nào.
 
     ![Git Solve](./gitSolve.PNG)
-    > lúc conflic thì phải giải quyết bằng editor. 
+    > lúc conflict thì phải giải quyết bằng editor. 
 
     
 
     ![Fork Solve GUI](./forkSolve.PNG)
-    > Fork giúp ta nhìn rõ hơn file nào đang conflic.  
+    > Fork giúp ta nhìn rõ hơn file nào đang conflict.  
     
     ![Git Solve GUI](./gitSolveGUI.PNG)
-    > Sửa conflic ngay trên APP.
+    > Sửa conflict ngay trên APP.
 
 - checkout commit, reset branch
 
